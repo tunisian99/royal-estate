@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Déposer un bien | Maisonéa Immobilier</title>
+
+    <meta name="description"
+          content="Propriétaire ? Déposez votre bien auprès de Maisonéa Immobilier pour une vente ou une location.">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header class="site-header">
+
+    <div class="container nav-container">
+
+        <a href="index.html" class="logo">
+            <span class="logo-main">MAISONÉA</span>
+            <span class="logo-sub">IMMOBILIER</span>
+        </a>
+
+        <button class="menu-toggle">☰</button>
+
+        <nav class="main-nav">
+
+            <a href="index.html">Accueil</a>
+            <a href="offres.html">Nos offres</a>
+            <a href="deposer.html" class="active">Déposer un bien</a>
+            <a href="sejours.html">Séjours</a>
+            <a href="apropos.html">À propos</a>
+            <a href="contact.html" class="nav-button">Contact</a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main>
+
+    <section class="page-hero">
+
+        <div class="container">
+
+            <span class="eyebrow">PROPRIÉTAIRES</span>
+
+            <h1>Déposez votre bien</h1>
+
+            <p>
+                Vous souhaitez vendre ou louer votre propriété ?
+                Présentez-nous votre projet.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <section class="section">
+
+        <div class="container form-layout">
+
+            <div class="form-intro">
+
+                <span class="eyebrow purple">
+                    VOTRE PROJET
+                </span>
+
+                <h2>
+                    Parlons de votre propriété.
+                </h2>
+
+                <p>
+                    Remplissez le formulaire et notre équipe
+                    prendra contact avec vous afin d'évaluer
+                    votre projet immobilier.
+                </p>
+
+                <div class="benefit-list">
+
+                    <div>
+                        <span>01</span>
+                        <div>
+                            <h3>Estimation</h3>
+                            <p>Une première analyse de votre bien.</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <span>02</span>
+                        <div>
+                            <h3>Conseil</h3>
+                            <p>Une stratégie adaptée à votre objectif.</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <span>03</span>
+                        <div>
+                            <h3>Accompagnement</h3>
+                            <p>Une équipe présente à chaque étape.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <form class="professional-form" id="propertyForm">
+
+                <h2>Informations du bien</h2>
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="ownerName">
+                            Nom complet *
+                        </label>
+
+                        <input
+                            type="text"
+                            id="ownerName"
+                            name="ownerName"
+                            placeholder="Votre nom"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="ownerPhone">
+                            Téléphone *
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="ownerPhone"
+                            name="ownerPhone"
+                            placeholder="+216 XX XXX XXX"
+                            required>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="ownerEmail">
+                        Email *
+                    </label>
+
+                    <input
+                        type="email"
+                        id="ownerEmail"
+                        name="ownerEmail"
+                        placeholder="vous@email.com"
+                        required>
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="transaction">
+                            Je souhaite *
+                        </label>
+
+                        <select id="transaction" required>
+
+                            <option value="">
+                                Sélectionner
+                            </option>
+
+                            <option>
+                                Vendre
+                            </option>
+
+                            <option>
+                                Louer
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="propertyType">
+                            Type de bien *
+                        </label>
+
+                        <select id="propertyType" required>
+
+                            <option value="">
+                                Sélectionner
+                            </option>
+
+                            <option>
+                                Appartement
+                            </option>
+
+                            <option>
+                                Maison
+                            </option>
+
+                            <option>
+                                Villa
+                            </option>
+
+                            <option>
+                                Terrain
+                            </option>
+
+                            <option>
+                                Bureau
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="city">
+                            Ville
+                        </label>
+
+                        <input
+                            type="text"
+                            id="city"
+                            placeholder="Ex. Tunis">
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="area">
+                            Surface
+                        </label>
+
+                        <input
+                            type="number"
+                            id="area"
+                            placeholder="m²">
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="price">
+                        Prix souhaité
+                    </label>
+
+                    <input
+                        type="text"
+                        id="price"
+                        placeholder="Ex. 750 000 DT">
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Informations complémentaires
+                    </label>
+
+                    <textarea
+                        id="message"
+                        rows="5"
+                        placeholder="Décrivez votre bien..."></textarea>
+
+                </div>
+
+
+                <button type="submit" class="btn btn-purple btn-full">
+                    Envoyer ma demande
+                </button>
+
+                <p class="form-note">
+                    * Champs obligatoires. Vos informations
+                    sont utilisées uniquement pour traiter votre demande.
+                </p>
+
+            </form>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="site-footer">
+
+    <div class="container footer-grid">
+
+        <div class="footer-brand">
+
+            <a href="index.html" class="logo footer-logo">
+                <span class="logo-main">MAISONÉA</span>
+                <span class="logo-sub">IMMOBILIER</span>
+            </a>
+
+            <p>
+                L'immobilier avec élégance,
+                exigence et proximité.
+            </p>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h4>Navigation</h4>
+
+            <a href="index.html">Accueil</a>
+            <a href="offres.html">Nos offres</a>
+            <a href="deposer.html">Déposer un bien</a>
+            <a href="sejours.html">Séjours</a>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h4>Agence</h4>
+
+            <a href="apropos.html">À propos</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h4>Contact</h4>
+
+            <p>📍 Tunis, Tunisie</p>
+            <p>☎ +216 XX XXX XXX</p>
+            <p>✉ contact@maisonea.tn</p>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <div class="container">
+
+            <p>© 2026 Maisonéa Immobilier. Tous droits réservés.</p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
